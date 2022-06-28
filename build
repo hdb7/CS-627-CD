@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gcc -o b check_cap.c && ./b
