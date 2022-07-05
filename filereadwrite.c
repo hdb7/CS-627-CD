@@ -30,7 +30,7 @@ int main() {
   fclose(fp);
 
   // display the content of new file
-  FILE *nfp = fopen("/../../Documents/github.com/CS-627-CD/new.txt", "r");
+  FILE *nfp = fopen("/../..k/Documents/github.com/CS-627-CD/new.txt", "r");
   char buf[MAX_LIM];
   memset(buf,0,MAX_LIM);
   fread(buf,1,MAX_LIM,nfp);
